@@ -1,0 +1,4 @@
+1. Clean the XML garbage (remove any lines containing xml): <.+>.+
+2. Clean the NLP tags: /.?[A-Z][A-Z]?
+3. Get rid of the punctuation: /..?
+4. Replace arrows with equals for readability: \s?-->\s?
